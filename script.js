@@ -7,7 +7,7 @@ function voice() {
         console.log(event);
         document.getElementById("text").value = event.results[0][0].transcript;
     };
-
+    
     recognition.start();
 }
 
