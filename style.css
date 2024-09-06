@@ -5,11 +5,12 @@
 }
 
 body {
-    background: #f0f2f5; 
+    background: rgb(11, 137, 255);
+    /* background: linear-gradient(30deg, rgba(47,37,37,1) 0%, rgba(12,130,234,1) 51%, rgba(42,29,29,0.8727941860337886) 100%); */
     font-family: 'Open Sans', sans-serif;
     
     font-size: 16px;
-    color: #333;
+    color: #161515;
     line-height: 1.6;
     padding: 20px;
 }
@@ -62,6 +63,6 @@ h1 {
 
 .btn:hover {
     background-color: #5237c1;
-    color: #fff;
+    color: #f5f2f2;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
